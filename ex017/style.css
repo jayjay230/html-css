@@ -1,0 +1,37 @@
+*{
+
+}
+
+body{
+    /*
+        Medidas Absolutas
+        cm (centímetro), mm (milímetro), in (polegada), px (pixel), pt (ponto), pc (paica).
+
+        16px geralmente é = a 1em.
+
+        Medidas Relativas
+        em (altura da letra M maiúscula), ex (altura da letra x minuscúla), rem (root em tamanho do em no body), vw ( viewport widht largura da tela), vh (altura da viewport), %.
+    */
+    background-color: rgb(241, 246, 241);
+    color: rgb(12, 12, 12);
+    font-family: 'work sans', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    /*para aplicar a shorthand font digite: font: italic bodlder 1em 'work sans', sans-serif */
+}
+    /* weight = peso, width = largura, height = altura*/
+
+    /* PESO DAS FONTS
+    pesos literais: lighter, normal, bold, bolder.*/
+
+    /* SHORTHAND Mãozinha
+ordem para shorthand font é: font-style, font-weight, font-size, font-family.
+    */
+h1, h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+h1 a{
+    text-decoration: none;
+}

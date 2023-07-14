@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+    <head>
+        <meta name="viewport" content="width-device=width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Ex011 Imagens Dinâmicas</title>
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <h1>Imagens Dinâmicas</h1>
+        <hr>
+        <p>Olá, pessoal! Hoje iremos aprender sobre imagens dinâmicas</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis rem quo odio perferendis sit explicabo similique quas eum voluptates! Totam quis magni obcaecati, rem inventore expedita dolorem est nisi blanditiis!</p>
+
+        <picture>
+           <!-- Usando a tag picture com max-width <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1550px)" srcset="imagens/foto-m.png" type="image/png">
+           <img src="imagens/foto-G.png" alt="imagem flexível"> -->
+           <source media="(min-width: 2273px)" srcset="imagens/foto-2223.jpg" type="image/jpg">
+           <source media="(min-width: 1550px)" srcset="imagens/foto-1500.jpg" type="image/jpg">
+           <source media="(min-widt: )">
+           <img src="imagens/foto-1000.jpg" alt="imagens flexíveis">
+        </picture>
+        <h1>Reprozindo Áudio</h1>
+        <p>Vamos aprender a reproduzir audio em HTML5</p>
+        <audio preload="metadata" controls autoplay>
+            <source src="midia/Pokemon.mp3" type="audio/mpeg">
+            <source src="midia/Será.mp3" type="audio/mpeg">
+            <source src="midia/Pokemon.MP3" type="audio/ogg">
+            <source src="midia/Será.mp3" type="audio/wav">
+            <p>Infelizmente o seu navegador não é compatível com reprodução de audio. <a href="midia/Será.mp3">Baixe seu arquivo mp3 aqui</a></p>
+        </audio>
+        
+    </body>
+</html>

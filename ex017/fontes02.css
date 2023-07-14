@@ -1,0 +1,23 @@
+body{
+    font: normal 16px Arial,Verdana, Sans-serif;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: rgb(54, 210, 210);
+}
+
+h2{
+    font-size: 2em;
+    text-align: right;
+    color: rgb(112, 20, 198);
+}
+
+p{
+    font-family: monospace, sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+}

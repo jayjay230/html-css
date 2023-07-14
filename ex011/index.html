@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device=width, initial-scale=1.0">
+    <title>Imagens Dinâmincas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas: Max-Width</h1>
+    <hr>
+    <h2></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vero perferendis ab delectus culpa officiis libero vitae! Dicta voluptas nesciunt temporibus veniam, cupiditate minima eum, soluta sunt facere autem cumque.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/pokemon.mp3" type="audio/mpeg">
+        <p>Infelizmente o seu navegador não é compatível com reprodução de áudio. <a href="">Click aqui para fazer o download do mp3</a></p>
+    </audio>
+</body>
+</html>

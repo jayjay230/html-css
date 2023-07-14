@@ -1,0 +1,80 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ body {
+    background-color: rgb(75, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ header {
+   padding: 10px;
+   margin: 10px auto;
+   background-color: #ffffff;
+
+ }
+
+ header h1{
+   margin: 20px;
+   color: rgb(67, 67, 67);
+ }
+
+ div > img{
+  display: flex;
+  margin: -10px 0 10px -10px;
+  width: 100%;
+ }
+
+ nav{
+   background-color: rgb(135, 135, 135);
+   padding: 20px;
+   margin-right: 10px;
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+   border-radius: 10px;
+ }
+ nav a {
+   padding: 10px;
+   margin-right: 10px;
+   color: #ffffff;
+   background-color: #5a5959;
+   text-decoration: none;
+   border: 1px solid rgba(177, 174, 174, 0.713);
+   border-radius: 5px;
+ }
+ nav a:hover{
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #ffffff;
+   color: rgb(105, 103, 103);
+   text-transform: uppercase;
+ }
+
+ main {
+   margin: 10px;
+   padding: 10px;
+   background-color: #ffffff;
+   color: black;
+   
+
+ }
+ 
+ article p{
+  text-indent: 15px;
+  text-align: justify;
+ }
+
+ article h2{
+   margin: 20px;
+
+ }
+ article > aside{
+
+ }
+ footer{
+   background-color: #000;
+   color: #ffffff;
+   text-align: center;
+   padding: 2px;
+   margin: 0px;
+ }
+ 
