@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+
+header{
+    background-color: black;
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+header > p{
+    padding: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    height: 100vh;
+    background-color: #ffffff;
+}
+ section{
+    padding: 30px 0;
+    text-align: left;
+    text-indent: 30px;
+    font-family: sans-serif;
+    line-height: 3em;
+ }
+
+#estrofe1{
+
+}
+
+#estrofe2{
+    background-color: black;
+    background-image: url(Paisagem-Natural.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    padding: 20px;
+    margin:20px 0;
+    color: #ffffff;
+}
+#estrofe2 p{
+    background-color: rgba(0, 0, 0, 0.194);
+    max-width: 600px;
+}
+
+
