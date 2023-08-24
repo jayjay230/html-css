@@ -9,9 +9,11 @@
 
 body{
 
+    height: 100vh;
 }
 
 header{
+    margin: 200px auto;
     background-color: black;
     color: #ffffff;
     padding-top: 30px;
@@ -22,7 +24,7 @@ header{
 }
 
 header > p{
-    padding: 30px;
+    padding: 50px;
     text-decoration: none;
     color: #ffffff;
     font-family: sans-serif;
@@ -42,15 +44,88 @@ header a:hover{
 
 
 main{
-    height: 100vh;
     background-color: #ffffff;
     text-align: left;
-    padding: 80px 30px;
+    padding: 80px auto;
+    font-family: 'Sriracha', cursive;
 }
 main p{
     font-family: 'Sriracha', cursive;
+    font-size: 1.5em;
     text-align: justify;
-    line-height: 3em
+    line-height: 2em;
+    font-weight: bold;
+    margin: 30px;
 }
 
+#background1{
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.311);
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+#background1 > p{
+    margin: 20px 0;
+    padding:10px 5px;
+    height: 450px;
+    max-width: 380px;
+    background-color: rgba(0, 0, 0, 0.293);
+    border-radius: 5px;
+    
+}
+
+#strofe2{
+    margin: 30px 5px;
+    padding: 40px 0px;
+}
+
+#strofe3{
+    margin: 30px 5px;
+    padding: 40px 0px;
+}
+
+#strofe4{
+    padding: 40px 5px;
+    height:450px ;
+    background-image: url('imagens/background002.jpg');
+    background-color: ;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+#strofe4 > p{
+    padding: 10px;
+    margin: -20px 10px;
+    background-color: rgba(0, 0, 0, 0.237);
+    width: 400px;
+    height: 450px;
+    color: #ffffff;
+}
+
+#strofe5{
+
+
+}
+
+footer > p{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+   
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
 
