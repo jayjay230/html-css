@@ -7,20 +7,22 @@
     padding: 0;
 }
 
-body{
-
-    height: 100vh;
+html,body{
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 
 header{
     background-color: black;
     color: #ffffff;
-    margin-bottom: 100px;
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
     font-family: 'Passion One', cursive;
-    text-transform: uppercase;
     font-size: 2em;
+}
+
+header h1{
+    font-variant: small-caps;
 }
 
 header > p{
@@ -49,68 +51,45 @@ main{
     font-family: 'Sriracha', cursive;
 }
 main p{
+    margin-left: 20px;
     font-family: 'Sriracha', cursive;
     font-size: 1.5em;
-    text-align: justify;
-    line-height: 2.5em;
     font-weight: bold;
-    margin: 30px;
 }
 
-#strofe1{
-    padding: 30px 0px;
-    margin: 50px 0px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+section.imagem > p{
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.354);
+    border-radius: 5px;
 }
 
-#strofe2{
-    padding: 30px;
+section.normal{
+  background-color: white;
+  color: black;
+
+}
+
+section.imagem{
+    padding: 10px;
     background-color: rgba(59, 58, 58, 0.184);
     background-image: url('imagens/background001.jpg');
     background-size: cover;
     background-position: center center;
     color: #ffffff;
 }
-#strofe2 > p{
-    margin: 10px 0;
-    padding:30px 5px;
-    height: 430px;
-    max-width: 380px;
-    background-color: rgba(0, 0, 0, 0.148);
-    border-radius: 5px;
-    font-size: 1.4em;
-    text-align: left;
-    
-}
 
-
-
-#strofe3{
-    margin: 50px 5px;
-    padding: 40px 0px;
-}
-
-#strofe4{
-    padding: 30px;
+#background2{
     background-color: rgba(59, 58, 58, 0.184);
     background-image: url('imagens/background002.jpg');
     background-size: cover;
     background-position: center center;
     color: #ffffff;
-
-}
-#strofe4 > p{
-    margin: 20px 0;
-    padding:20px 20px;
-    height: 450px;
-    max-width: 380px;
-    background-color: rgba(0, 0, 0, 0.148);
-    border-radius: 5px;
-    font-size: 1.3em;
-    text-align: left;
-}
-
-#strofe5{
-
 
 }
 
