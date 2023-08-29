@@ -63,7 +63,7 @@ main{
     font-family: 'Sriracha', cursive;
 }
 main p{
-    margin-left: 20px;
+    padding-bottom: 2em;
     font-family: 'Sriracha', cursive;
     font-size: 1.5em;
     font-weight: bold;
@@ -95,7 +95,9 @@ section.imagem{
     background-color: rgba(59, 58, 58, 0.184);
     background-image: url('imagens/background001.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: right 
+    center;
+    background-attachment: fixed;
     color: #ffffff;
 }
 
