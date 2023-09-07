@@ -13,29 +13,47 @@ body{
     background-repeat: no-repeat;
     background-position:top center ;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-h1{
+main h1{
+ color: white;
  font-family: Arial, Helvetica, sans-serif;
- text-align: center;
+ font-size: 3em;
  font-variant-caps:small-caps;
+ text-align: center;
+ padding: 50px;
+}
+
+main{
+    max-width: 800px;
+ 
+}
+
+main p{
+    padding-left: 20px;
+    margin: 0px auto;
+    color: white;
+    font-size: 2em;
+    text-indent: 30px;
 }
 
 table{
-    margin: auto;
+    margin: 50px auto;
     min-width: 280px;
     width: 400px;
+    border: 2px solid #000;
     border-collapse: collapse;
     text-align: center;
 }
 
 div.conteiner{
-    position: relative 50vh;
-    
+    position: relative;
 }
+
 div.conteudo{
     position: absolute;
-}
+}/* posicão absoluta só é possivel movimentar left e top.*/
 
 td{
 border: 1px solid black;
